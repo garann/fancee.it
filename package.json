@@ -4,6 +4,9 @@
   "description": "an app for sharing things you fancy",
   "main": "lib/app.js",
   "scripts": {
+    "dev": "npm run watch & nodemon lib/app.js",
+    "watch": "watchify public/js/fancee.js -o public/js/bundle.js",
+    "build": "browserify public/js/fancee.js -o public/js/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +23,7 @@
     "browserify": "^11.1.0",
     "dot": "^1.0.3",
     "express": "^4.13.3",
-    "nodemon": "^1.6.1"
+    "nodemon": "^1.6.1",
+    "watchify": "^3.4.0"
   }
 }
