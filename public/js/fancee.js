@@ -7,3 +7,5 @@ var Fancee = function() {
   return this;
 
 }();
+
+Fancee.init();
