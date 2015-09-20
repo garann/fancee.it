@@ -5,8 +5,8 @@
   "main": "lib/app.js",
   "scripts": {
     "dev": "npm run watch & nodemon lib/app.js",
-    "watch": "watchify public/js/fancee.js -o public/js/bundle.js",
-    "build": "browserify public/js/fancee.js -o public/js/bundle.js",
+    "watch": "watchify lib/client.js -o public/js/bundle.js",
+    "build": "browserify lib/client.js -o public/js/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
