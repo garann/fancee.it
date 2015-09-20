@@ -1,0 +1,8 @@
+<!-- list.dot -->
+<h1>{{= it.title.noun }} {{= it.title.pronoun }} fancee {{= it.title.verb }}</h1>
+<div class="members">
+  {{~ it.members :member }}
+    {{# def.memberthumb }}
+  {{~}}
+<div>
+<!-- /list.dot -->

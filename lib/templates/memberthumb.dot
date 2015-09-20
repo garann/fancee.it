@@ -1,0 +1,3 @@
+<a href="{{= member.url }}" class="thumb">
+  <img src="{{= member.thumb }}" />
+</a>
