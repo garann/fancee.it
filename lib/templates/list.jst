@@ -1,8 +1,14 @@
-<!-- list.dot -->
+<!-- list.jst -->
+<a href="/list/{{= it.id }}/addItem" id="addItem">+</a>
 <h1>{{= it.title.noun }} {{= it.title.pronoun }} fancee {{= it.title.verb }}</h1>
 <div class="members">
   {{~ it.members :member }}
     {{# def.memberthumb }}
   {{~}}
 <div>
-<!-- /list.dot -->
+<div id="items">
+  {{~ it.items :item }}
+    {{# def.listitem }}
+  {{~}}
+</div>
+<!-- /list.jst -->

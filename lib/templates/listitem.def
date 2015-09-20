@@ -1,0 +1,17 @@
+<div class="item">
+  {{? item.img }}
+    <img src="{{= item.img }}" />
+  {{?}}
+  {{? item.note }}
+    <p class="note">{{= item.note }}</p>
+  {{?}}
+  {{? item.link }}
+    <a href="{{= item.link }}">➚</a>
+  {{?}}
+  {{? item.date }}
+    <span class="date">{{= item.date }}</span>
+  {{?}}
+  {{? item.latlong }}
+    <a href="//maps.google.com/maps?ll={{= item.latlong }}&z13">⧭</a>
+  {{?}}
+</div>
