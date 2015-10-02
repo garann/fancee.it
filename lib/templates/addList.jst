@@ -1,10 +1,13 @@
+<!-- addList.jst -->
 <label>Type of items: 
-  <input type="text" placeholder="cats" id="noun" name="noun" /></label>
+  <input type="text" placeholder="cats" id="noun" /></label>
 <label>What you'll be doing with them: 
-  <input type="text" placeholder="petting" id="verb" name="verb" /></label>
+  <input type="text" placeholder="petting" id="verb" /></label>
 <label>Share with:
-  <input type="text" placeholder="dale@fancee.it, garann@fancee.it" id="members" name="members" /></label>
-{{? it.id }}
+  <input type="text" placeholder="dale@fancee.it, garann@fancee.it" id="members" /></label>
+{{? it.id == "0" }}
 <label>Enter your email to save:
-  <input type="email" placeholder="you@you.com" id="email" name="email" /></label>
+  <input type="email" placeholder="you@you.com" id="email" /></label>
 {{?}}
+<input type="submit" id="saveList" value="Create" />
+<!-- /addList.jst -->
