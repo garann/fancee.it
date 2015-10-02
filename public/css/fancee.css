@@ -4,3 +4,7 @@ body {
 	background: url(../img/paper.jpg);
 	background-size: cover;
 }
+
+label {
+  display: block;
+}
