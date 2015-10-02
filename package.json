@@ -26,5 +26,8 @@
     "nodemon": "^1.6.1",
     "page": "^1.6.3",
     "watchify": "^3.4.0"
+  },
+  "dependencies": {
+    "pouchdb": "^4.0.3"
   }
 }
