@@ -3,12 +3,16 @@
 <h1>{{= it.title.noun }} {{= it.title.pronoun }} fancee {{= it.title.verb }}</h1>
 <div class="members">
   {{~ it.members :member }}
+    {{? member }}
     {{# def.memberthumb }}
+    {{?}}
   {{~}}
 <div>
 <div id="items">
   {{~ it.items :item }}
+    {{? item }}
     {{# def.listitem }}
+    {{?}}
   {{~}}
 </div>
 <!-- /list.jst -->

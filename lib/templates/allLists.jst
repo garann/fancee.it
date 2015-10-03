@@ -3,7 +3,9 @@
 <h1>{{= it.name }}'s fancees</h1>
 <div class="lists">
   {{~ it.lists :l }}
+    {{? l }}
     {{# def.listlink }}
+    {{?}}
   {{~}}
 </div>
 <!-- /allLists.jst -->
