@@ -1,8 +1,8 @@
 <div class="listlink">
-  <a href="/list/{{= l.id }}">{{= l.title.noun }} {{= l.title.pronoun }} fancee {{= l.title.verb }}</a>
+  <a href="/list/{{= l.id }}" class="list-link">{{= l.title.noun }} {{= l.title.pronoun }} fancee {{= l.title.verb }}</a>
   <div class="members">
     {{~ l.members :member }}
       {{# def.memberthumb }}
     {{~}}
-  <div>
+  </div>
 </div>
