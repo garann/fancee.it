@@ -11,20 +11,54 @@
 
 }
 
+html {
+  height: 100%;
+}
+
 body {
 	background: url(../img/paper.jpg);
 	background-size: cover;
   font-family: "Nilland", "Futura", sans-serif;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  color: #474747;
 }
 
+header {}
+
 h1 {
+  background-color: #ffa375;
   font-family: "comfortaabold";
+  margin: 0;
+  line-height: 2em;
+  text-align: center;
 }
 
 label {
   display: block;
 }
 
-footer a {}
+a {
+  text-decoration: none;
+}
 
-.list-link {}
+footer {
+  background-color: #e9ff42;
+  padding: .5em;
+  display: flex;
+  flex-direction: row;
+}
+footer a {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#content {
+  flex-grow: 1;
+}
+
+.listlink {
+  padding: .5em;
+}
