@@ -16,14 +16,15 @@ html {
 }
 
 body {
-	background: url(../img/paper.jpg);
-	background-size: cover;
+  background: url(../img/paper.jpg);
+  background-size: cover;
   font-family: "Nilland", "Futura", sans-serif;
   height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
   color: #474747;
+  font-size: 14px;
 }
 
 header {}
@@ -34,6 +35,7 @@ h1 {
   margin: 0;
   line-height: 2em;
   text-align: center;
+  whitespace: nowrap;
 }
 
 label {
@@ -41,6 +43,7 @@ label {
 }
 
 a {
+  color: #005e75;
   text-decoration: none;
 }
 
@@ -63,9 +66,27 @@ footer a {
   position: absolute;
   right: 0;
   display: inline-block;
-  padding: 0 .5em;
+  padding: 0 .2em;
   font-size: 2em;
 }
 .listlink {
   padding: .5em;
+}
+
+.listlink .members {
+  display: none;
+}
+
+.members {
+  background-color: #77afbf;
+  display: flex;
+  padding: .5em;
+}
+
+.thumb img {
+  display: block;
+  width: 3em;
+  height: 3em;
+  border-radius: 1.5em;
+  margin-right: .5em;
 }
